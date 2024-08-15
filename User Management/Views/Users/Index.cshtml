@@ -1,0 +1,128 @@
+﻿@model IEnumerable<User_Management.Data.User>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="page-wrapper">
+    <div class="content">
+        <div class="page-header">
+            <div class="page-title">
+                <h4>User List</h4>
+                <h6>Manage your User</h6>
+            </div>
+            <div class="page-btn">
+                <a asp-action="Create" asp-controller="Users" class="btn btn-added">
+                    <img src="~/assets/img/icons/plus.svg" alt="img" class="me-2">Add User
+                </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <div class="table-top">
+                    <div class="search-set">
+                        <div class="search-path">
+                            <a class="btn btn-filter" id="filter_search">
+                                <img src="~/assets/img/icons/filter.svg" alt="img">
+                                <span><img src="~/assets/img/icons/closes.svg" alt="img"></span>
+                            </a>
+                        </div>
+                        <div class="search-input">
+                            <a class="btn btn-searchset">
+                                <img src="~/assets/img/icons/search-white.svg" alt="img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wordset">
+                        <ul>
+                            <li>
+                                <a data-bs-toggle="tooltip" data-bs-placement="top" title="pdf"><img src="~/assets/img/icons/pdf.svg" alt="img"></a>
+                            </li>
+                            <li>
+                                <a data-bs-toggle="tooltip" data-bs-placement="top" title="excel"><img src="~/assets/img/icons/excel.svg" alt="img"></a>
+                            </li>
+                            <li>
+                                <a data-bs-toggle="tooltip" data-bs-placement="top" title="print"><img src="~/assets/img/icons/printer.svg" alt="img"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="table datanew">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <label class="checkboxs">
+                                        <input type="checkbox">
+                                        <span class="checkmarks"></span>
+                                    </label>
+                                </th>
+                                <th>Profile</th>
+                                <th>Username</th>
+                                <th>Phone</th>
+                                <th>Email</th>
+                                <th>DateOfBirth</th>
+                                <th>Gender</th>
+                                <th>Address</th>
+                                <th>Role</th>
+                                <th>CreatedDate</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        <label class="checkboxs">
+                                            <input type="checkbox">
+                                            <span class="checkmarks"></span>
+                                        </label>
+                                    </td>
+                                    <td class="productimgname">
+                                        <a href="javascript:void(0);" class="product-img">
+                                            <img src="~/assets/img/customer/@item.ProfileImage" alt="@Html.DisplayFor(modelItem => item.Fullname)">
+                                        </a>
+                                    </td>
+@*                                     <td>@Html.DisplayFor(modelItem => item.Fullname)</td>
+ *@                                    <td>@Html.DisplayFor(modelItem => item.Username)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Phone)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.DateOfBirth)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Gender)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Address)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Role.RoleName)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.CreatedDate)</td>
+                                    <td>
+                                        <span class="badges @(item.IsActive ? "bg-lightgreen" : "bg-lightred")">
+                                            @(item.IsActive ? "Active" : "Restricted")
+                                        </span>
+                                    </td>
+
+
+
+                                    <td>
+                                        <a asp-action="Details" asp-route-id="@item.UserId" class="me-3">
+                                            <img src="~/assets/img/icons/eye.svg" alt="img">
+                                        </a>
+                                        <a asp-action="Edit" asp-route-id="@item.UserId" class="me-3">
+                                            <img src="~/assets/img/icons/edit.svg" alt="img">
+                                        </a>
+                                        <a asp-action="Delete" asp-route-id="@item.UserId" class="me-3">
+                                            <img src="~/assets/img/icons/delete.svg" alt="img">
+                                        </a>
+                                       
+                                  
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,107 @@
+﻿@model User_Management.ViewModel.CreateUserVM
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="page-wrapper">
+    <div class="content">
+        <div class="page-header">
+            <div class="page-title">
+                <h4>User  Management</h4>
+                <h6>Add/Update User</h6>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <form asp-action="Create" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="row">
+                        <!-- First Column -->
+                        <div class="col-lg-6 col-md-12">
+                            <div class="form-group">
+                                <label asp-for="RoleId" class="control-label"></label>
+                                <select asp-for="RoleId" class="form-control" asp-items="ViewBag.RoleId"></select>
+                                <span asp-validation-for="RoleId" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="Fullname">Full Name</label>
+                                <input asp-for="Fullname" type="text" class="form-control" />
+                                <span asp-validation-for="Fullname" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="Email">Email</label>
+                                <input asp-for="Email" type="email" class="form-control" />
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="Username">User Name</label>
+                                <input asp-for="Username" type="text" class="form-control" />
+                                <span asp-validation-for="Username" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="Password">Password</label>
+                                <div class="pass-group">
+                                    <input asp-for="Password" type="password" class="form-control pass-input" />
+                                    <span class="fas toggle-password fa-eye-slash"></span>
+                                </div>
+                                <span asp-validation-for="Password" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="DateOfBirth">Date of Birth</label>
+                                <input asp-for="DateOfBirth" type="date" class="form-control" />
+                                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <!-- Second Column -->
+                        <div class="col-lg-6 col-md-12">
+                            <div class="form-group">
+                                <label asp-for="Gender">Gender</label>
+                                <select asp-for="Gender" class="form-control">
+                                    <option value="">Select</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                                <span asp-validation-for="Gender" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="Address">Address</label>
+                                <input asp-for="Address" type="text" class="form-control" />
+                                <span asp-validation-for="Address" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="Phone">Phone</label>
+                                <input asp-for="Phone" type="text" class="form-control" />
+                                <span asp-validation-for="Phone" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="ProfileImage" class="control-label"></label>
+                                <input asp-for="ProfileImage" type="file" class="form-control" />
+                                <span asp-validation-for="ProfileImage" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <a asp-action="Index" class="btn btn-primary">Back to List</a>
+
+                                <input type="submit" value="Create" class="btn btn-primary" />
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

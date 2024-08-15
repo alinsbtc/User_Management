@@ -1,0 +1,636 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chauq\\Source\\Repos\\User Management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\views\\account\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\views\\account\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\viewmodel\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\viewmodel\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\viewmodel\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\viewmodel\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\viewmodel\\createuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\viewmodel\\createuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\helpers\\mysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\helpers\\mysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\views\\account\\notrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\views\\account\\notrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\data\\usermanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\data\\usermanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\wwwroot\\profile.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\wwwroot\\profile.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\wwwroot\\assets\\userlist.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\wwwroot\\assets\\userlist.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\wwwroot\\assets\\addcustomer.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\wwwroot\\assets\\addcustomer.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\wwwroot\\assets\\adduser.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\wwwroot\\assets\\adduser.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\wwwroot\\assets\\signin.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\wwwroot\\assets\\signin.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\wwwroot\\assets\\signup.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\wwwroot\\assets\\signup.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|c:\\users\\chauq\\source\\repos\\user management\\user management\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{80B585FA-4157-4349-BC9A-843941A03DFD}|User Management\\User Management.csproj|solutionrelative:user management\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "User Management\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "User Management\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAABUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T18:19:47.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "User Management\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "User Management\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T15:09:09.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\Users\\Details.cshtml",
+              "RelativeDocumentMoniker": "User Management\\Views\\Users\\Details.cshtml",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\Users\\Details.cshtml",
+              "RelativeToolTip": "User Management\\Views\\Users\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T08:42:38.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\ViewModel\\LoginVM.cs",
+              "RelativeDocumentMoniker": "User Management\\ViewModel\\LoginVM.cs",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\ViewModel\\LoginVM.cs",
+              "RelativeToolTip": "User Management\\ViewModel\\LoginVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T06:40:27.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\Account\\Edit.cshtml",
+              "RelativeDocumentMoniker": "User Management\\Views\\Account\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\Account\\Edit.cshtml",
+              "RelativeToolTip": "User Management\\Views\\Account\\Edit.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T14:02:32.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "User Management\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "User Management\\Views\\Users\\Index.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAF8AAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T08:42:39.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "User Management\\Views\\Users\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\Users\\Edit.cshtml",
+              "RelativeToolTip": "User Management\\Views\\Users\\Edit.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAABUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T08:43:30.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "User Management\\Views\\Users\\Create.cshtml",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "User Management\\Views\\Users\\Create.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T10:18:35.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "User Management\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "User Management\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAK0AAAAAAAAAAAAAwL0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T08:28:18.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Data\\User.cs",
+              "RelativeDocumentMoniker": "User Management\\Data\\User.cs",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Data\\User.cs",
+              "RelativeToolTip": "User Management\\Data\\User.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAA1wDoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T16:08:19.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "User Management\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "User Management\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAH4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T18:03:28.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "User Management\\Views\\Account\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\Account\\Profile.cshtml",
+              "RelativeToolTip": "User Management\\Views\\Account\\Profile.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAF0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T09:19:17.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "User Management\\Views\\Account\\Index.cshtml",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "User Management\\Views\\Account\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAFcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T11:14:26.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "User Management\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "User Management\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAuwH0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T08:01:56.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterVM.cs",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\ViewModel\\RegisterVM.cs",
+              "RelativeDocumentMoniker": "User Management\\ViewModel\\RegisterVM.cs",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\ViewModel\\RegisterVM.cs",
+              "RelativeToolTip": "User Management\\ViewModel\\RegisterVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T17:53:52.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateUserVM.cs",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\ViewModel\\CreateUserVM.cs",
+              "RelativeDocumentMoniker": "User Management\\ViewModel\\CreateUserVM.cs",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\ViewModel\\CreateUserVM.cs",
+              "RelativeToolTip": "User Management\\ViewModel\\CreateUserVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T06:48:02.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\Users\\Delete.cshtml",
+              "RelativeDocumentMoniker": "User Management\\Views\\Users\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\Users\\Delete.cshtml",
+              "RelativeToolTip": "User Management\\Views\\Users\\Delete.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T08:42:37.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Program.cs",
+              "RelativeDocumentMoniker": "User Management\\Program.cs",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Program.cs",
+              "RelativeToolTip": "User Management\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T16:44:28.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Data\\Role.cs",
+              "RelativeDocumentMoniker": "User Management\\Data\\Role.cs",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Data\\Role.cs",
+              "RelativeToolTip": "User Management\\Data\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T07:18:59.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MySetting.cs",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Helpers\\MySetting.cs",
+              "RelativeDocumentMoniker": "User Management\\Helpers\\MySetting.cs",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Helpers\\MySetting.cs",
+              "RelativeToolTip": "User Management\\Helpers\\MySetting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T10:20:12.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NotRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\Account\\NotRole.cshtml",
+              "RelativeDocumentMoniker": "User Management\\Views\\Account\\NotRole.cshtml",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\Account\\NotRole.cshtml",
+              "RelativeToolTip": "User Management\\Views\\Account\\NotRole.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAAApwDMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T13:34:33.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserManagementDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Data\\UserManagementDbContext.cs",
+              "RelativeDocumentMoniker": "User Management\\Data\\UserManagementDbContext.cs",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Data\\UserManagementDbContext.cs",
+              "RelativeToolTip": "User Management\\Data\\UserManagementDbContext.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAhwDoAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T07:41:54.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "User Management\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "User Management\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAGkAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T08:42:07.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "User Management\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "User Management\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T08:41:21.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "User Management\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "User Management\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T08:41:15.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "profile.html",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\wwwroot\\profile.html",
+              "RelativeDocumentMoniker": "User Management\\wwwroot\\profile.html",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\wwwroot\\profile.html",
+              "RelativeToolTip": "User Management\\wwwroot\\profile.html",
+              "ViewState": "AQIAAIIBAAAAAAAAAIBJwKsBAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-12T08:45:00.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "userlist.html",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\wwwroot\\assets\\userlist.html",
+              "RelativeDocumentMoniker": "User Management\\wwwroot\\assets\\userlist.html",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\wwwroot\\assets\\userlist.html",
+              "RelativeToolTip": "User Management\\wwwroot\\assets\\userlist.html",
+              "ViewState": "AQIAAGQDAAAAAAAAAAAQwHQDAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-13T17:14:35.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "adduser.html",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\wwwroot\\assets\\adduser.html",
+              "RelativeDocumentMoniker": "User Management\\wwwroot\\assets\\adduser.html",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\wwwroot\\assets\\adduser.html",
+              "RelativeToolTip": "User Management\\wwwroot\\assets\\adduser.html",
+              "ViewState": "AQIAAOIBAAAAAAAAAABBwAUCAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-13T17:58:30.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "addcustomer.html",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\wwwroot\\assets\\addcustomer.html",
+              "RelativeDocumentMoniker": "User Management\\wwwroot\\assets\\addcustomer.html",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\wwwroot\\assets\\addcustomer.html",
+              "RelativeToolTip": "User Management\\wwwroot\\assets\\addcustomer.html",
+              "ViewState": "AQIAAOwBAAAAAAAAAAAUwAcCAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-14T07:08:34.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "signin.html",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\wwwroot\\assets\\signin.html",
+              "RelativeDocumentMoniker": "User Management\\wwwroot\\assets\\signin.html",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\wwwroot\\assets\\signin.html",
+              "RelativeToolTip": "User Management\\wwwroot\\assets\\signin.html",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAuwGAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-13T08:47:57.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "signup.html",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\wwwroot\\assets\\signup.html",
+              "RelativeDocumentMoniker": "User Management\\wwwroot\\assets\\signup.html",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\wwwroot\\assets\\signup.html",
+              "RelativeToolTip": "User Management\\wwwroot\\assets\\signup.html",
+              "ViewState": "AQIAACIAAAAAAAAAAABBwBIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-13T08:47:48.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "User Management\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "User Management\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T17:36:20.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "User Management\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "User Management\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T17:32:01.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "User Management\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "User Management\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T17:33:37.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\appsettings.json",
+              "RelativeDocumentMoniker": "User Management\\appsettings.json",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\appsettings.json",
+              "RelativeToolTip": "User Management\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-12T17:01:16.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "User Management\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\chauq\\Source\\Repos\\User Management\\User Management\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "User Management\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-08-12T16:42:55.948Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

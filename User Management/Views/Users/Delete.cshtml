@@ -1,0 +1,101 @@
+﻿@model User_Management.Data.User
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="page-wrapper">
+    <div class="content">
+        <div class="page-header">
+            <div class="page-title">
+                <h4>Users Management</h4>
+                    <h6>Are you sure you want to delete this?</h6>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="profile-set">
+                    <div class="profile-head">
+                    </div>
+                    <div class="profile-top">
+                        <div class="profile-content">
+                            <div class="profile-contentimg">
+                                <img src="~/assets/img/customer/@Html.DisplayFor(model => model.ProfileImage)" alt="img" id="blah">
+                                <div class="profileupload">
+                                    <input type="file" id="imgInp">
+                                </div>
+                            </div>
+                            <div class="profile-contentname">
+                                <h2>
+                                    @Html.DisplayFor(model => model.Fullname)
+                                </h2>
+                                <h4>Updates Your Photo and Personal Details.</h4>
+                            </div>
+                        </div>
+      
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- First Column -->
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <label class="control-label">Email</label>
+                            <p class="form-control-static">@Html.DisplayFor(model => model.Email)</p>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label">Username</label>
+                            <p class="form-control-static">@Html.DisplayFor(model => model.Username)</p>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">Date of Birth</label>
+                            <p class="form-control-static">@Html.DisplayFor(model => model.DateOfBirth)</p>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label">Gender</label>
+                            <p class="form-control-static">@Html.DisplayFor(model => model.Gender)</p>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">Password</label>
+                            <p class="form-control-static">@Html.DisplayFor(model => model.Password)</p>
+                        </div>
+
+
+                    </div>
+
+                    <!-- Second Column -->
+                    <div class="col-lg-6">
+
+
+                        <div class="form-group">
+                            <label class="control-label">Address</label>
+                            <p class="form-control-static">@Html.DisplayFor(model => model.Address)</p>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label">Phone</label>
+                            <p class="form-control-static">@Html.DisplayFor(model => model.Phone)</p>
+                        </div>
+                        <div class="form-group form-check">
+                            <label class="form-check-label">
+                                <input type="checkbox" disabled="disabled" class="form-check-input" @(Model.IsActive ? "checked" : "") />
+                                @Html.DisplayNameFor(model => model.IsActive)
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                    <form asp-action="Delete">
+                        <input type="hidden" asp-for="UserId" />
+                    <a asp-action="Index" class="btn btn-primary">Back to List</a>
+
+                        <input type="submit" value="Delete" class="btn btn-danger"/> |
+                        <a asp-action="Index">Back to List</a>
+                    </form>
+                </div>
+
+        </div>
+    </div>
+</div>
+</div>
+
