@@ -1,6 +1,36 @@
 ## Báo Cáo Assignment: User Management
 Giới Thiệu: Bài Assignment "User Management" tập trung vào việc phát triển một hệ thống quản lý người dùng cơ bản. Hệ thống này cung cấp các chức năng đăng ký người dùng, đăng nhập, thay đổi mật khẩu và quản lý thông tin người dùng thông qua giao diện tương tác với Web Server qua Postman.
-2.Các chức năng đã làm được: 
+![image](https://github.com/user-attachments/assets/3ba1d28f-81ca-4d87-8954-42f2a4cd50fb)
+
+## Các chức năng đã làm được: 
+Chi tiết các chức năng đã hoàn thành trong bài tập:
+
+User Registration (Đăng Ký Người Dùng):
+
+Trang đăng ký cho phép người dùng mới tạo tài khoản bằng cách nhập các thông tin cá nhân như họ tên, tên đăng nhập, email, mật khẩu, xác nhận mật khẩu, và các thông tin tùy chọn khác.
+Mật khẩu được mã hóa trước khi lưu vào cơ sở dữ liệu để bảo mật thông tin.
+Login (Đăng Nhập):
+
+Trang đăng nhập cho phép người dùng đã có tài khoản đăng nhập bằng tên đăng nhập và mật khẩu.
+Hệ thống kiểm tra thông tin và xác thực người dùng, sau đó tạo phiên đăng nhập với các thông tin và quyền hạn liên quan.
+Change Password (Đổi Mật Khẩu):
+
+Người dùng có thể thay đổi mật khẩu của mình từ trang "Change Password".
+Mật khẩu mới được mã hóa trước khi lưu trữ.
+User Management (Quản Lý Người Dùng):
+
+List User (Danh Sách Người Dùng): Trang liệt kê tất cả người dùng trong hệ thống với các tùy chọn xem chi tiết, chỉnh sửa và xóa.
+Edit User (Chỉnh Sửa Người Dùng): Cho phép cập nhật thông tin người dùng, bao gồm mật khẩu, với khả năng mã hóa mật khẩu mới.
+Delete User (Xóa Người Dùng): Cho phép xóa tài khoản người dùng khỏi hệ thống.
+Thông tin chi tiết về các chức năng:
+
+Trang Chi Tiết Người Dùng (Profile Account): Hiển thị thông tin chi tiết của người dùng đã đăng nhập, bao gồm họ tên, tên đăng nhập, email, và thông tin khác.
+
+Trang Chỉnh Sửa Người Dùng (Edit User): Cung cấp giao diện để chỉnh sửa thông tin người dùng, bao gồm khả năng cập nhật mật khẩu với mã hóa bảo mật.
+
+Trang Tạo Người Dùng (Create User): Cho phép thêm người dùng mới vào hệ thống với các thông tin cần thiết và mã hóa mật khẩu.
+
+Trang Xóa Người Dùng (Delete User): Cung cấp chức năng để xóa người dùng khỏi hệ thống.
 ## I.Mô Tả Trang "Đăng Ký" (User Registration)
 ![image](https://github.com/user-attachments/assets/119a8ffa-c527-4f81-80d8-7205f7ea2a39)
 
